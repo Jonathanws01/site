@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end</title>
+
+    <!-- Rolagem suave -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Front-end</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#projeto">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="https://google.com.br/" target="_blank">Google</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Seção Projetos -->
+        <section id="projeto">
+            <h2>Projetos</h2>
+
+            <article>
+                <h3>Portfólio</h3>
+                <p>
+                    Este foi o primeiro site que desenvolvi estudando front-end.
+                </p>
+            </article>
+        </section>
+
+        <section id="habilidates">
+
+            <h2>Habilidades e tecnologias</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Nivel</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Iniciante</td>
+                        <td>Capaz de contruir estruturas de páginas web semanticas e responsivas.</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediário</td>
+                        <td>Experiência com flexvox, grid e animações CSS.</td>
+                    </tr>
+
+                        <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                        <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+
+        </section>
+
+        <!-- Seção Sobre mim -->
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+
+            <img src="https://imgs.search.brave.com/4_Cn1GE-2TZUtK-Nf2KO_FTwMYMCAeK9KjJ5HdEeikg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE0/OTkyMjI2Ny92ZWN0/b3IvdXNlci1pY29u/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1pNmpZUGZCMXBX/aks4cGxsNllSeEFL/OWZnQm1mNjUtdzV3/YktIOVIxZHlRPQ"
+                alt="Foto de Jonathan" 
+                width="200" height="200" 
+                title="Jonathan">
+                
+
+                <article>
+                    <p>
+                    Olá! Eu sou Jonathan, sou desenvolvedor web.
+                    </p>
+                </article>
+
+            <aside>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <p>Tem um projeto em mente? Entre em contato.</p>
+
+            <form action="">
+
+                <label for="nome">Nome     </label>
+                <input type="text" id="nome" name="nome" required> <br>
+                
+                <label for="email">E-mail    </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="Telefone" name="Telefone"> <br>
+                
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                  <option value="orcamento">Orçamento</option>
+                  <option value="duvida">Dúvida</option>
+                  <option value="outro">Outros</option>
+                </select> 
+
+
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newslatter? Fique por dentro</label>
+
+                <br>
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
